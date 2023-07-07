@@ -7,16 +7,16 @@ Introducing an innovative event hosting and attending app! With this platform, e
 The problem statement is to develop a system that utilizes QR codes to register people to an event and track their attendance using location based tracking. The system will send event related information only to those who are online and in the location of the event. Additionally the system will allow for real time feedback collection from the attendees in the event. The system will also allow for pre-processing by identifying individuals who are absent for more than 3 events and block them from future events.
 
 ## Solution
-**1) QR Code Generation for Attendees**
+**1) QR Code Generation for Attendees:**
 To generate QR codes for attendees, I utilized the 'qr_flutter' package. This package allowed me to easily generate unique QR codes for each attendee. By using this package, I was able to generate QR codes that could be scanned later for attendee verification.
 
-**2) Integration of Google Maps API for Event Location**
+**2) Integration of Google Maps API for Event Location:**
 To set the event location and define a radius, I incorporated the Google Maps API. This integration enabled me to select the event location on Google map and specify a radius around it. By leveraging the Google Maps API, I obtained the latitude and longitude coordinates for the event location, which I then stored in the backend system to track the users within the designated area.
 
-**3) Creation of a Real-time User Collection in the Database**
+**3) Creation of a Real-time User Collection in the Database:**
 To keep track of users present in event location in real-time, I created a collection in the database. This collection was designed to store user email. By continuously updating this collection in real-time, I could monitor the presence of users within the specified event location.
 
-**4) Tracking User Attendance and Blocking Functionality**
+**4) Tracking User Attendance and Blocking Functionality:**
 To track user attendance and implement a blocking mechanism, I introduced a 'time' field in the user's record. Initially, the 'time' field was set to '0'. When a user successfully presented their QR code and gained entry, I updated the 'time' field with the timestamp of the scan. Additionally, I provided the host with the ability to block users whose 'time' field remained '0' by implementing a block button. To keep track of the number of times a user was blocked, I included a 'blockCount' field in the user's collection, which was incremented each time a user was blocked. Once the 'blockCount' reached 3, the user was restricted from registering for future events.
 
 
