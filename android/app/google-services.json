@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202206364413",
+    "project_id": "qrifyme-222bc",
+    "storage_bucket": "qrifyme-222bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202206364413:android:7eb1aab74db75186197494",
+        "android_client_info": {
+          "package_name": "com.example.qrifyme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zP-FCcMRNNRM52paoPE2iGTIS-Em_p4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
