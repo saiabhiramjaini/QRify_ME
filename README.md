@@ -122,6 +122,8 @@ To track user attendance and implement a blocking mechanism, I introduced a 'tim
 - To validate the scanned QR codes, I established a connection with my database. I retrieved the relevant data from the database and compared it with the data extracted from the scanned QR codes.
 - Upon QR code detection and data retrieval, I implemented a verification mechanism to check if the scanned QR code data matched the data stored in the database. If a match was found, I allowed access or granted permission to the person associated with that QR code.
 
+  ![image](https://github.com/saiabhiramjaini/QRify_ME/assets/115941546/1efeeca9-f067-4f9d-977f-633b6cf12eee)
+
 
 ## Applications
 
