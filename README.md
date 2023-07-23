@@ -32,7 +32,7 @@ To track user attendance and implement a blocking mechanism, I introduced a 'tim
 
 
 ## QRify ME app
-**App Link:** [https://drive.google.com/file/d/1Np-RL-XyX2NONKjGhxxfBxP7LbBHxhFA/view?usp=sharing](https://drive.google.com/file/d/1KrCdgUeWulzSuOojyks1PtK5acpHuumN/view?usp=sharing)
+**App Link:** [https://drive.google.com/file/d/1KrCdgUeWulzSuOojyks1PtK5acpHuumN/view?usp=sharing]
 - Event Hosting
 - Location tracking
 - Attendee insights
